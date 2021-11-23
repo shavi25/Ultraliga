@@ -1,0 +1,393 @@
+     
+
+body{
+margin:0;
+padding: 0;
+background-color: #0f1519;  
+}
+
+.baner{
+z-index: 10;
+width: 100%;
+margin: 0;
+padding: 0;
+background-color: #111;
+display: flex;
+justify-content: space-between;
+position: fixed;    
+}
+.logoUL{
+height: 50px;  
+margin: 15px;
+padding: 0;
+margin-left: 40px;
+}
+.menu{    
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 70%;
+height: 100%;    
+margin-right: 50px;    
+}
+.main{
+background-color: #0a0e13;
+padding-top: 70px;
+width: 100%;
+display: flex;
+    
+}
+.lewo{
+float: left;  
+width: 50%;
+background-color: #0f1519;
+display: flex;
+flex-direction: column;
+align-items: center;    
+}
+.prawo{
+ width: 50%;
+background-color: #0f1519;
+float: right;
+display: flex;
+flex-direction: column;
+align-items: center;    
+}
+.blokartykuly{
+height: 350px;    
+width: 550px;
+background-color: #0a0e13;
+margin: 20px 0;
+padding: 10px;    
+}
+.artykul{
+height: 350px;    
+width: 550px;
+text-decoration: none;    
+}
+.artykul>.zdj{
+height: 280px;
+width: 550px;    
+}
+.artykul>.opis{
+color: aliceblue;
+font-family: Franklin Gothic Heavy;
+text-align: center;
+margin-top: 5px;
+font-size: 30px    
+}
+.footer{
+background-color: #111;
+height: 200px;
+width: 100%; 
+display: flex;
+justify-content: space-between;
+position: relative;
+bottom: 0;    
+}
+
+.replay{
+background-color: #111;
+  
+color: white;    
+height: 70px;
+width: 70px;  
+
+  
+}
+.replayp{
+color: white;
+text-decoration: none;   
+
+   
+font-family: Franklin Gothic Heavy;
+letter-spacing: 2px;
+font-size: 22px;     
+}
+.harmonogram{
+background-color: #111;
+
+color: white;    
+height: 70px;
+width: 70px;  
+
+     
+}
+.harmonogramp{
+color: white;
+text-decoration: none; 
+
+
+font-family: Franklin Gothic Heavy;
+letter-spacing: 2px;
+font-size: 22px;     
+}
+.tabela{
+background-color: #111;
+   
+color: white;    
+height: 70px;
+width: 70px;  
+
+     
+}
+.tabelap{
+color: white;
+text-decoration: none; 
+
+font-family: Franklin Gothic Heavy;
+letter-spacing: 2px;
+font-size: 22px;     
+}
+.typowanie{
+background-color: #111;
+    
+color: white;    
+height: 70px;
+width: 70px;  
+
+ 
+}
+.typowaniep{
+color: white;
+text-decoration: none; 
+
+
+font-family: Franklin Gothic Heavy;
+letter-spacing: 2px;
+font-size: 22px;     
+}
+.drozyna{
+background-color: #111;
+  
+color: white;    
+height: 70px;
+width: 70px;  
+
+
+}
+.drozynap{
+color: white;
+text-decoration: none; 
+
+
+font-family: Franklin Gothic Heavy;
+letter-spacing: 2px;
+font-size: 22px;     
+}
+.wiadomosci{
+background-color: #111;
+  
+color: white;    
+height: 70px;
+width: 70px;   
+
+ 
+}
+.wiadomoscip{
+color: white;
+text-decoration: none; 
+
+
+font-family: Franklin Gothic Heavy;
+letter-spacing: 2px;
+font-size: 22px;     
+}
+.miganie:hover{
+box-shadow: rgb(0, 200, 200) 0px -2px 0px inset;
+  
+}
+.podswietlanie:hover{
+background-color: rgba(15, 21, 25,0.93);
+box-shadow: rgb(0, 200, 200) 0px -2px 0px inset,
+    rgb(0, 200, 200) 0px 2px 0px inset;
+}
+.pasek{
+ box-shadow: rgb(0, 200, 200) 1px 0px 2px inset;  
+}
+.miganie{
+width: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.tytul{
+margin: 0;
+color: aliceblue;    
+}
+.dzien{
+display: flex;
+flex-direction: row;
+font-size: 30px;
+padding: 20px 40px;
+background-color: #0f1519;    
+}
+.linkvod{
+display: flex;
+flex-direction: row;
+width: 100%;
+background-color: #1C272E;      
+justify-content:flex-start;
+   
+
+}
+
+.timki{
+float: right;
+background-color:#0a0e13;   
+width: 100%;
+display: flex;
+flex-direction: row;
+text-align: center;
+ 
+}
+.team{
+padding: 10px;
+    
+}
+.vs{
+margin-top: 20px;
+padding: 30px;    
+color: aliceblue;
+font-size: 50px;    
+}
+.nazwa{
+color: aliceblue;
+font-size: 30px;    
+}
+.logaT{
+height:100px;     
+width:100px;
+}
+.contet{
+   
+width: 80%;
+display: flex;    
+flex-direction: column;
+  
+}
+.contet2{
+height: 100%;
+width: 20%;
+right: 0;
+position: fixed;
+text-align: center;     
+display: flex;
+align-items:  center;  
+flex-direction: column;
+    
+}
+
+::-webkit-scrollbar {
+    height: 14px;
+    width: 14px;
+    background-color: #0a0e13;
+    margin: 0 10px;
+}
+.boczneprzyciski{
+position: relative;
+top: 10px;
+display: flex;
+flex-direction: column;
+  
+}
+.napisy{
+color: white;
+font-family: Franklin Gothic Heavy;    
+display: flex;
+align-items:  center;
+font-size: 35px;
+margin-left: 10px; 
+margin-top: 20px;   
+}
+.logaP{
+height: 100px;
+    
+}
+.Ugaming{
+height: 100px;
+margin-top: 20px;    
+}
+.bocznyguzik{
+display: flex;
+padding: 10px;
+width: 100%;
+  
+}
+.bocznyguziklink{
+width: 267px;
+height: 120px;
+margin-bottom: 15px;   
+   
+}
+.video{
+height: 620px;
+width: 1400px;
+margin-left: 45px;
+margin-top: 20px;    
+}
+.viddiv{
+height: 670px;
+width: 1491px;
+background-color: #0f1519;    
+}
+#harmonogram{
+height: 800px;
+width: 100%; 
+display: flex;
+flex-direction: row;    
+}
+#harmonogram .Hlewo{
+width: 80%;
+display: flex;    
+flex-direction: column;  
+}
+#harmonogram .Hprawo{
+height: 100%;
+width: 20%;
+right: 0;
+background-color: #0a0e13;
+ 
+}
+#harmonogram .Hnapis{
+color: aliceblue;
+font-size: 50px;    
+}
+#harmonogram .harmonogram{
+height: 600px;
+width: 1200px;    
+margin: 60px;    
+}
+#tabela{
+height: 800px;
+width: 100%; 
+display: flex;
+flex-direction: row;    
+}
+#tabela .Hlewo{
+width: 80%;
+display: flex;    
+flex-direction: column;  
+}
+#tabela .Hprawo{
+height: 100%;
+width: 20%;
+right: 0;
+background-color: #0a0e13;
+ 
+}
+.logaopis{
+height: 300px;
+width: 300px;    
+}
+.napsyopisy{
+color: aliceblue;
+font-size: 20px;    
+}
+.kontener{
+    
+}
+.typlog{
+height: 400px;
+width: 400px;    
+}
