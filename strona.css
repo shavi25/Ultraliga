@@ -35,7 +35,13 @@ background-color: #0a0e13;
 padding-top: 70px;
 width: 100%;
 display: flex;
+
     
+}
+.maindol{
+height: 10px;
+width: 100%; 
+    box-shadow: rgb(0, 200, 200) 0px -2px 0px inset;
 }
 .lewo{
 float: left;  
@@ -81,9 +87,11 @@ background-color: #111;
 height: 200px;
 width: 100%; 
 display: flex;
-justify-content: space-between;
+justify-content: flex-end;
+align-items: flex-end;    
 position: relative;
-bottom: 0;    
+bottom: 0;
+  
 }
 
 .replay{
@@ -327,6 +335,7 @@ margin-left: 45px;
 margin-top: 20px;    
 }
 .viddiv{
+margin-top: 20px;    
 height: 670px;
 width: 1491px;
 background-color: #0f1519;    
@@ -352,6 +361,8 @@ background-color: #0a0e13;
 #harmonogram .Hnapis{
 color: aliceblue;
 font-size: 50px;    
+margin-left: 40%;
+   
 }
 #harmonogram .harmonogram{
 height: 600px;
@@ -376,6 +387,63 @@ right: 0;
 background-color: #0a0e13;
  
 }
+
+.dtabela{
+display: flex;
+align-items: center;    
+}
+.Tnapis{
+margin-left: 50px;
+margin-bottom: 20px;    
+}
+
+.timeknazwa{
+color: aliceblue;
+font-size: 25px;    
+margin-top: 10px; 
+}
+.wynik{
+color: aliceblue;    
+font-size: 19px;    
+}
+.numerek{
+color: aliceblue;
+font-size: 45px;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;    
+}
+.timek{
+float: left;
+display: flex;
+    
+}
+.timeklogo{
+  height: 80px;
+    width: 80px;  
+}
+
+.calarow{
+  display: flex;
+justify-items: center;
+    
+}
+#typowanie .Hlewo{
+width: 80%;
+display: flex;    
+flex-direction: column;
+float: left;    
+}
+#typowanie .Hprawo{
+height: 100%;
+width: 20%;
+
+background-color: #0a0e13;
+float: right; 
+right: 0;   
+}
+
+
 .logaopis{
 height: 300px;
 width: 300px;    
